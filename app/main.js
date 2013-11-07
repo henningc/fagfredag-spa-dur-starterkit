@@ -6,7 +6,7 @@
         'transitions' : '../lib/durandal/js/transitions',
         'knockout': '../lib/knockout/knockout-2.3.0',
         'bootstrap': '../lib/bootstrap/js/bootstrap',
-        'jquery': '../lib/jquery/jquery-1.10.2'
+        'jquery': '../lib/jquery/jquery-1.9.1'
     },
     shim: {
         'bootstrap': {
@@ -21,7 +21,7 @@ define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (s
     system.debug(true);
     //>>excludeEnd("build");
 
-    app.title = 'Durandal-YR';
+    app.title = 'Durandal Starter Kit';
 
     app.configurePlugins({
         router:true,
